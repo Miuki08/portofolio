@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
+import AntiInspect from './component/AntiInspect';
 
 export default function Home() {
   const textRef = useRef<HTMLHeadingElement>(null);
@@ -76,6 +77,9 @@ export default function Home() {
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
         <div className="w-5 h-5 border-b-2 border-r-2 border-white rotate-45"></div>
       </div>
+
+      {/* Panggil AntiInspect di sini */}
+      <AntiInspect />
 
       <style jsx global>{`
         @keyframes fadeIn {
