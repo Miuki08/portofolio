@@ -6,8 +6,8 @@ import Footer from './component/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Alfiansyah Bima ||',
-  description: 'Video Editor | Typesetting Artist | Software Developer',
+  title: 'Alfiansyah Bima - Junior Developer',
+  description: 'Video Editor | Software Developer',
 };
 
 export default function RootLayout({

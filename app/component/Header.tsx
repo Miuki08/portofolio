@@ -23,7 +23,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-purple-600">
               <Image 
-                src="/psh.jpg" 
+                src="/profileme.png" 
                 alt="Profile" 
                 width={40}
                 height={40}

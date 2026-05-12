@@ -49,7 +49,7 @@ export default function About() {
           >
             <div className="w-64 h-64 rounded-2xl overflow-hidden border-4 border-purple-600 shadow-lg">
               <Image
-                src="/phost.jpeg"
+                src="/profileme.png"
                 alt="Profile Picture"
                 width={256}
                 height={256}
@@ -67,8 +67,8 @@ export default function About() {
               {[
                 { href: 'https://www.linkedin.com/in/alfiansyah-bima-6546632a8/', icon: 'fab fa-linkedin-in' },
                 { href: 'https://github.com/Miuki08', icon: 'fab fa-github' },
-                { href: 'https://www.instagram.com/bimstheloneknight08', icon: 'fab fa-instagram' },
-                { href: 'https://youtube.com/@07fuu', icon: 'fab fa-youtube' },
+                { href: 'https://www.instagram.com/kiranakita.dev', icon: 'fab fa-instagram' },
+                { href: 'https://youtube.com/@reinaa.m', icon: 'fab fa-youtube' },
               ].map((item, i) => (
                 <motion.a
                   key={i}
@@ -92,31 +92,29 @@ export default function About() {
             className="flex-1"
           >
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Perjalanan karier saya, dimulai dari dunia pengeditan video yang
-              saya tekuni di platform YouTube dan Bilibili (Bstation). Dari sana,
-              saya mengembangkan keahlian baru dengan menjadi typesetter untuk
-              platform Bilibili dan berbagai situs web. Beberapa tahun belakangan
-              ini, saya telah memperluas pengetahuan serta kemampuan saya dengan
-              mendalami bidang pengembangan perangkat lunak dan gim.
+              Fresh graduate SMK Pengembangan Perangkat Lunak dan Gim dengan pengalaman kreatif sebagai video editor di platform YouTube serta Bilibili, 
+              yang kemudian berkembang ke bidang pengembangan perangkat lunak melalui pengalaman magang sebagai Junior Developer di PT. 
+              Ciptadra Softindo. Memiliki kemampuan dalam pengembangan aplikasi web menggunakan Laravel, Phalcon, MySQL, dan REST API, serta memahami dasar UI/UX, frontend development, 
+              dan digital marketing untuk mendukung pengembangan produk digital.
             </p>
 
             {/* Timeline */}
             <div className="space-y-6 pl-8 relative before:content-[''] before:absolute before:left-1 before:top-0 before:h-full before:w-0.5 before:bg-purple-600">
               {[
                 {
-                  year: '2021 - Present',
+                  year: '2021 - 2023',
                   title: 'Video Editor',
-                  desc: 'Membuat konten yang menarik di platform digital seperti YouTube dan Bilibili',
+                  desc: 'Membuat dan mengedit konten digital untuk platform YouTube dan Bilibili.',
                 },
                 {
-                  year: '2021 - Present',
-                  title: 'Typesetting Artist',
-                  desc: 'Menjadi Typesetting untuk platform digital seperti Bilibili dan beberapa website lainnya',
-                },
-                {
-                  year: '2023 - Present',
+                  year: '2023 - Sekarang',
                   title: 'Software Developer',
-                  desc: 'Membuat sebuah aplikasi, website, dan game',
+                  desc: 'Mempelajari dan mengembangkan aplikasi web menggunakan Laravel, MySQL, REST API, dan teknologi frontend.',
+                },
+                {
+                  year: 'Agustus 2025 - Februari 2026',
+                  title: 'Internship Junior Developer',
+                  desc: 'Berkontribusi dalam pengembangan CRM omnichannel dan portal pemerintah berbasis Laravel & Phalcon.',
                 },
               ].map((exp, i) => (
                 <motion.div

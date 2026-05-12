@@ -59,7 +59,7 @@ export default function Home() {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 opacity-90 animate-slide-up">
-          Video Editor | Typesetting Artist | Software Developer
+          Video Editor & Software Developer
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">

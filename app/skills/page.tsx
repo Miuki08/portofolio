@@ -21,44 +21,71 @@ const hardSkills: HardSkillsCategory = {
     { name: 'HTML', icon: 'devicon-html5-plain colored' },
     { name: 'CSS', icon: 'devicon-css3-plain colored' },
     { name: 'JavaScript', icon: 'devicon-javascript-plain colored' },
+    { name: 'TypeScript', icon: 'devicon-typescript-plain colored' },
     { name: 'PHP', icon: 'devicon-php-plain colored' },
     { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
     { name: 'C#', icon: 'devicon-csharp-plain colored' },
-    { name: 'Java', icon: 'devicon-java-plain colored' }
+    { name: 'Java', icon: 'devicon-java-plain colored' },
   ],
+
   Frameworks: [
     { name: 'Laravel', icon: 'devicon-laravel-plain colored' },
+    { name: 'Phalcon', icon: 'devicon-phalcon-plain colored' },
     { name: 'Bootstrap', icon: 'devicon-bootstrap-plain colored' },
-    { name: 'Node.js', icon: 'devicon-nodejs-plain colored' }
+    { name: 'Tailwind CSS', icon: 'devicon-tailwindcss-plain colored' },
+    { name: 'Next.js', icon: 'devicon-nextjs-original' },
   ],
+
   Tools: [
-    { 
-      name: 'MS Office', 
-      icon: 'https://img.icons8.com/color/96/000000/microsoft-office-2019.png',
+    {
+      name: 'Git',
+      icon: 'devicon-git-plain colored'
+    },
+    {
+      name: 'GitHub',
+      icon: 'devicon-github-original'
+    },
+    {
+      name: 'VS Code',
+      icon: 'devicon-vscode-plain colored'
+    },
+    {
+      name: 'MS Office',
+      icon: 'https://img.icons8.com/color/96/microsoft-office-2019.png',
       source: 'MS Office'
     },
-    { 
-      name: 'Krita', 
-      icon: 'https://cdn.svgporn.com/logos/krita-icon.svg',
-      source: 'Krita'
+    {
+      name: 'CapCut',
+      icon: 'https://cdn.simpleicons.org/capcut/000000',
+      source: 'CapCut'
     },
-    { 
-      name: 'Blender', 
+    {
+      name: 'Blender',
       icon: 'https://cdn.svgporn.com/logos/blender.svg',
       source: 'Blender'
     },
-    { 
-      name: 'Unity', 
+    {
+      name: 'Unity',
       icon: 'https://cdn.svgporn.com/logos/unity-icon.svg',
       source: 'Unity'
     },
-    { 
-      name: 'Figma', 
+    {
+      name: 'Figma',
       icon: 'devicon-figma-plain colored'
     },
-    { 
-      name: 'Photoshop', 
-      icon: 'devicon-photoshop-plain colored'
+    {
+      name: 'Postman',
+      icon: 'devicon-postman-plain colored'
+    },
+    {
+      name: 'XAMPP',
+      icon: 'https://cdn.simpleicons.org/xampp/fb7a24',
+      source: 'XAMPP'
+    },
+    {
+      name: 'Laragon',
+      icon: 'https://cdn.simpleicons.org/laragon/0e83cd',
+      source: 'Laragon'
     }
   ]
 };
@@ -72,24 +99,24 @@ type SoftSkill = {
 
 const softSkills: SoftSkill[] = [
   { 
-    name: 'Public Speaking', 
-    icon: 'fas fa-comments',
-    description: 'Dapat berkomunikasi dengan baik dalam segala situasi'
-  },
-  { 
-    name: 'Emotional Intelligence', 
-    icon: 'fas fa-brain',
-    description: 'Mengerti dan dapat menangani emosi dengan baik'
-  },
-  { 
-    name: 'Team Collaboration', 
+    name: 'Teamwork', 
     icon: 'fas fa-users',
-    description: 'Memiliki kemampuan kerja sama tim yang cukup baik'
+    description: 'Mampu bekerja sama dalam tim untuk menyelesaikan tugas dan mencapai target bersama'
+  },
+  { 
+    name: 'Communication', 
+    icon: 'fas fa-comments',
+    description: 'Mampu berkomunikasi dengan baik secara lisan maupun tulisan dalam lingkungan kerja'
   },
   { 
     name: 'Problem Solving', 
     icon: 'fas fa-lightbulb',
-    description: 'Menemukan pemecahan masalah yang baik dan menarik'
+    description: 'Mampu menganalisis masalah dan menemukan solusi yang efektif dalam berbagai situasi'
+  },
+  { 
+    name: 'Public Speaking', 
+    icon: 'fas fa-microphone',
+    description: 'Percaya diri dalam menyampaikan ide, presentasi, dan berinteraksi di depan umum'
   }
 ];
 
@@ -181,9 +208,9 @@ export default function Skills() {
             </div>
             
             {/* Footer dengan attribution */}
-            <div className="mt-12 text-center text-gray-500 text-sm">
+            {/* <div className="mt-12 text-center text-gray-500 text-sm">
               <p>Icons by <a href="https://devicon.dev" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Devicon</a>, <a href="https://icons8.com" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Icons8</a>, and <a href="https://svgporn.com" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">SVGPorn</a></p>
-            </div>
+            </div> */}
           </div>
         </section>
     </>

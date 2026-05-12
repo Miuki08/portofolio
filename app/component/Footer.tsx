@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 
-// Definisikan font Inter di luar komponen
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Footer() {
@@ -16,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center mb-6">
               <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-purple-600 shadow-lg shadow-purple-500/20 mr-4">
                 <Image 
-                  src="/psh.jpg" 
+                  src="/profileme.png" 
                   alt="Alfiansyah Bima" 
                   width={80}
                   height={80}
@@ -27,12 +26,12 @@ export default function Footer() {
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
                   Alfiansyah Bima
                 </h3>
-                <p className="text-sm text-gray-400">Beginner Developer</p>
+                <p className="text-sm text-gray-400">Junior Developer</p>
               </div>
             </div>
             
             <p className="text-gray-300 mb-4 text-center lg:text-left leading-relaxed max-w-md">
-              Video Editor | Typesetting Artist | Software Developer 
+              Video Editor & Software Developer 
             </p>
             
             <div className="flex items-center text-gray-400 mb-2">
@@ -69,8 +68,8 @@ export default function Footer() {
               {[
                 { href: 'https://www.linkedin.com/in/alfiansyah-bima-6546632a8/', icon: 'fab fa-linkedin-in', label: 'LinkedIn' },
                 { href: 'https://github.com/Miuki08', icon: 'fab fa-github', label: 'GitHub' },
-                { href: 'https://www.instagram.com/bimstheloneknight08', icon: 'fab fa-instagram', label: 'Instagram' },
-                { href: 'https://youtube.com/@07fuu', icon: 'fab fa-youtube', label: 'YouTube' }
+                { href: 'https://www.instagram.com/kiranakita.dev', icon: 'fab fa-instagram', label: 'Instagram' },
+                { href: 'https://youtube.com/@reinaa.m', icon: 'fab fa-youtube', label: 'YouTube' }
               ].map((social) => (
                 <a
                   key={social.label}
@@ -102,7 +101,7 @@ export default function Footer() {
               </div>
               <span className="text-gray-500 text-sm ml-2">by</span>
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-semibold ml-1">
-                αzυre project ♪
+                me project ♪
               </span>
             </div>
           </div>
